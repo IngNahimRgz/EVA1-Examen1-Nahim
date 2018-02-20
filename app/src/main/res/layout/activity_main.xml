@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nahim.eva1_examen1_nahim.MainActivity">
+
+    <Spinner
+        android:spinnerMode="dropdown"
+        android:popupBackground="@drawable/image"
+        android:gravity="center"
+        android:dropDownWidth="250dp"
+        android:id="@+id/spinnerMarca"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <Spinner
+        android:spinnerMode="dialog"
+        android:prompt="@string/tittle_dialog"
+        android:layout_marginTop="100dp"
+        android:id="@+id/spinnerModelo"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content">
+
+    </Spinner>
+
+
+</LinearLayout>
